@@ -1,0 +1,44 @@
+.recipe {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-title {
+  margin: 0 0 10px 0;
+}
+
+.calories {
+  color: rgb(75, 74, 74);
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+.ingredients {
+  list-style-type: none;
+}
+
+.ingredients li {
+  margin: 5px 0;
+}
+
+.food-image {
+  display: block;
+  width: 85%;
+  margin: 20px auto;
+  border: 5px solid #fff;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .recipe {
+    width: 45%;
+  }
+  .food-image {
+    width: 60%;
+  }
+}
